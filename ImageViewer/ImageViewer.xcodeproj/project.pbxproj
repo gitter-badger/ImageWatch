@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BABEB3EF1A2055E400E07AB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BABEB3EE1A2055E400E07AB9 /* main.m */; };
+		BABEB3F21A2055E400E07AB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BABEB3F11A2055E400E07AB9 /* AppDelegate.m */; };
+		BABEB3F51A2055E400E07AB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BABEB3F41A2055E400E07AB9 /* ViewController.m */; };
+		BABEB3F81A2055E400E07AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABEB3F61A2055E400E07AB9 /* Main.storyboard */; };
+		BABEB3FA1A2055E400E07AB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABEB3F91A2055E400E07AB9 /* Images.xcassets */; };
+		BABEB3FD1A2055E400E07AB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABEB3FB1A2055E400E07AB9 /* LaunchScreen.xib */; };
+		BABEB4091A2055E400E07AB9 /* ImageViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BABEB4081A2055E400E07AB9 /* ImageViewerTests.m */; };
+		BABEB4191A20564600E07AB9 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABEB4181A20564600E07AB9 /* WatchKit.framework */; };
+		BABEB4201A20564600E07AB9 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = BABEB41F1A20564600E07AB9 /* InterfaceController.m */; };
+		BABEB4231A20564600E07AB9 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BABEB4221A20564600E07AB9 /* NotificationController.m */; };
+		BABEB4251A20564600E07AB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABEB4241A20564600E07AB9 /* Images.xcassets */; };
+		BABEB4291A20564600E07AB9 /* ImageViewer Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = BABEB4281A20564600E07AB9 /* ImageViewer Watch App.app */; };
+		BABEB4301A20564600E07AB9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABEB42F1A20564600E07AB9 /* Interface.storyboard */; };
+		BABEB4321A20564600E07AB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABEB4311A20564600E07AB9 /* Images.xcassets */; };
+		BABEB4351A20564600E07AB9 /* ImageViewer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BABEB4161A20564600E07AB9 /* ImageViewer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BABEB4031A2055E400E07AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BABEB3E11A2055E400E07AB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BABEB3E81A2055E400E07AB9;
+			remoteInfo = ImageViewer;
+		};
+		BABEB42A1A20564600E07AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BABEB3E11A2055E400E07AB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BABEB4271A20564600E07AB9;
+			remoteInfo = "ImageViewer Watch App";
+		};
+		BABEB4331A20564600E07AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BABEB3E11A2055E400E07AB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BABEB4151A20564600E07AB9;
+			remoteInfo = "ImageViewer WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BABEB43C1A20564600E07AB9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BABEB4351A20564600E07AB9 /* ImageViewer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BABEB3E91A2055E400E07AB9 /* ImageViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BABEB3ED1A2055E400E07AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABEB3EE1A2055E400E07AB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BABEB3F01A2055E400E07AB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BABEB3F11A2055E400E07AB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BABEB3F31A2055E400E07AB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BABEB3F41A2055E400E07AB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BABEB3F71A2055E400E07AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BABEB3F91A2055E400E07AB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BABEB3FC1A2055E400E07AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BABEB4021A2055E400E07AB9 /* ImageViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BABEB4071A2055E400E07AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABEB4081A2055E400E07AB9 /* ImageViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewerTests.m; sourceTree = "<group>"; };
+		BABEB4161A20564600E07AB9 /* ImageViewer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ImageViewer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BABEB4181A20564600E07AB9 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		BABEB41C1A20564600E07AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABEB41D1A20564600E07AB9 /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		BABEB41E1A20564600E07AB9 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		BABEB41F1A20564600E07AB9 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		BABEB4211A20564600E07AB9 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		BABEB4221A20564600E07AB9 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		BABEB4241A20564600E07AB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BABEB4281A20564600E07AB9 /* ImageViewer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageViewer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BABEB42E1A20564600E07AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABEB42F1A20564600E07AB9 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		BABEB4311A20564600E07AB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BABEB3E61A2055E400E07AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABEB3FF1A2055E400E07AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABEB4131A20564600E07AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABEB4191A20564600E07AB9 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BABEB3E01A2055E400E07AB9 = {
+			isa = PBXGroup;
+			children = (
+				BABEB3EB1A2055E400E07AB9 /* ImageViewer */,
+				BABEB4051A2055E400E07AB9 /* ImageViewerTests */,
+				BABEB41A1A20564600E07AB9 /* ImageViewer WatchKit Extension */,
+				BABEB42C1A20564600E07AB9 /* ImageViewer Watch App */,
+				BABEB4171A20564600E07AB9 /* Frameworks */,
+				BABEB3EA1A2055E400E07AB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BABEB3EA1A2055E400E07AB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BABEB3E91A2055E400E07AB9 /* ImageViewer.app */,
+				BABEB4021A2055E400E07AB9 /* ImageViewerTests.xctest */,
+				BABEB4161A20564600E07AB9 /* ImageViewer WatchKit Extension.appex */,
+				BABEB4281A20564600E07AB9 /* ImageViewer Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BABEB3EB1A2055E400E07AB9 /* ImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				BABEB3F01A2055E400E07AB9 /* AppDelegate.h */,
+				BABEB3F11A2055E400E07AB9 /* AppDelegate.m */,
+				BABEB3F31A2055E400E07AB9 /* ViewController.h */,
+				BABEB3F41A2055E400E07AB9 /* ViewController.m */,
+				BABEB3F61A2055E400E07AB9 /* Main.storyboard */,
+				BABEB3F91A2055E400E07AB9 /* Images.xcassets */,
+				BABEB3FB1A2055E400E07AB9 /* LaunchScreen.xib */,
+				BABEB3EC1A2055E400E07AB9 /* Supporting Files */,
+			);
+			path = ImageViewer;
+			sourceTree = "<group>";
+		};
+		BABEB3EC1A2055E400E07AB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BABEB3ED1A2055E400E07AB9 /* Info.plist */,
+				BABEB3EE1A2055E400E07AB9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BABEB4051A2055E400E07AB9 /* ImageViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BABEB4081A2055E400E07AB9 /* ImageViewerTests.m */,
+				BABEB4061A2055E400E07AB9 /* Supporting Files */,
+			);
+			path = ImageViewerTests;
+			sourceTree = "<group>";
+		};
+		BABEB4061A2055E400E07AB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BABEB4071A2055E400E07AB9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BABEB4171A20564600E07AB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BABEB4181A20564600E07AB9 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BABEB41A1A20564600E07AB9 /* ImageViewer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BABEB41E1A20564600E07AB9 /* InterfaceController.h */,
+				BABEB41F1A20564600E07AB9 /* InterfaceController.m */,
+				BABEB4211A20564600E07AB9 /* NotificationController.h */,
+				BABEB4221A20564600E07AB9 /* NotificationController.m */,
+				BABEB4241A20564600E07AB9 /* Images.xcassets */,
+				BABEB41B1A20564600E07AB9 /* Supporting Files */,
+			);
+			path = "ImageViewer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		BABEB41B1A20564600E07AB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BABEB41C1A20564600E07AB9 /* Info.plist */,
+				BABEB41D1A20564600E07AB9 /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BABEB42C1A20564600E07AB9 /* ImageViewer Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BABEB42F1A20564600E07AB9 /* Interface.storyboard */,
+				BABEB4311A20564600E07AB9 /* Images.xcassets */,
+				BABEB42D1A20564600E07AB9 /* Supporting Files */,
+			);
+			path = "ImageViewer Watch App";
+			sourceTree = "<group>";
+		};
+		BABEB42D1A20564600E07AB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BABEB42E1A20564600E07AB9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BABEB3E81A2055E400E07AB9 /* ImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BABEB40C1A2055E400E07AB9 /* Build configuration list for PBXNativeTarget "ImageViewer" */;
+			buildPhases = (
+				BABEB3E51A2055E400E07AB9 /* Sources */,
+				BABEB3E61A2055E400E07AB9 /* Frameworks */,
+				BABEB3E71A2055E400E07AB9 /* Resources */,
+				BABEB43C1A20564600E07AB9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BABEB4341A20564600E07AB9 /* PBXTargetDependency */,
+			);
+			name = ImageViewer;
+			productName = ImageViewer;
+			productReference = BABEB3E91A2055E400E07AB9 /* ImageViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BABEB4011A2055E400E07AB9 /* ImageViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BABEB40F1A2055E400E07AB9 /* Build configuration list for PBXNativeTarget "ImageViewerTests" */;
+			buildPhases = (
+				BABEB3FE1A2055E400E07AB9 /* Sources */,
+				BABEB3FF1A2055E400E07AB9 /* Frameworks */,
+				BABEB4001A2055E400E07AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BABEB4041A2055E400E07AB9 /* PBXTargetDependency */,
+			);
+			name = ImageViewerTests;
+			productName = ImageViewerTests;
+			productReference = BABEB4021A2055E400E07AB9 /* ImageViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BABEB4151A20564600E07AB9 /* ImageViewer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BABEB4391A20564600E07AB9 /* Build configuration list for PBXNativeTarget "ImageViewer WatchKit Extension" */;
+			buildPhases = (
+				BABEB4121A20564600E07AB9 /* Sources */,
+				BABEB4131A20564600E07AB9 /* Frameworks */,
+				BABEB4141A20564600E07AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BABEB42B1A20564600E07AB9 /* PBXTargetDependency */,
+			);
+			name = "ImageViewer WatchKit Extension";
+			productName = "ImageViewer WatchKit Extension";
+			productReference = BABEB4161A20564600E07AB9 /* ImageViewer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		BABEB4271A20564600E07AB9 /* ImageViewer Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BABEB4361A20564600E07AB9 /* Build configuration list for PBXNativeTarget "ImageViewer Watch App" */;
+			buildPhases = (
+				BABEB4261A20564600E07AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImageViewer Watch App";
+			productName = "ImageViewer Watch App";
+			productReference = BABEB4281A20564600E07AB9 /* ImageViewer Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BABEB3E11A2055E400E07AB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "SAKAI, Atsushi";
+				TargetAttributes = {
+					BABEB3E81A2055E400E07AB9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BABEB4011A2055E400E07AB9 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BABEB3E81A2055E400E07AB9;
+					};
+					BABEB4151A20564600E07AB9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BABEB4271A20564600E07AB9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = BABEB3E41A2055E400E07AB9 /* Build configuration list for PBXProject "ImageViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BABEB3E01A2055E400E07AB9;
+			productRefGroup = BABEB3EA1A2055E400E07AB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BABEB3E81A2055E400E07AB9 /* ImageViewer */,
+				BABEB4011A2055E400E07AB9 /* ImageViewerTests */,
+				BABEB4151A20564600E07AB9 /* ImageViewer WatchKit Extension */,
+				BABEB4271A20564600E07AB9 /* ImageViewer Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BABEB3E71A2055E400E07AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABEB3F81A2055E400E07AB9 /* Main.storyboard in Resources */,
+				BABEB3FD1A2055E400E07AB9 /* LaunchScreen.xib in Resources */,
+				BABEB3FA1A2055E400E07AB9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABEB4001A2055E400E07AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABEB4141A20564600E07AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABEB4251A20564600E07AB9 /* Images.xcassets in Resources */,
+				BABEB4291A20564600E07AB9 /* ImageViewer Watch App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABEB4261A20564600E07AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABEB4301A20564600E07AB9 /* Interface.storyboard in Resources */,
+				BABEB4321A20564600E07AB9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BABEB3E51A2055E400E07AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABEB3F51A2055E400E07AB9 /* ViewController.m in Sources */,
+				BABEB3F21A2055E400E07AB9 /* AppDelegate.m in Sources */,
+				BABEB3EF1A2055E400E07AB9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABEB3FE1A2055E400E07AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABEB4091A2055E400E07AB9 /* ImageViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABEB4121A20564600E07AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABEB4231A20564600E07AB9 /* NotificationController.m in Sources */,
+				BABEB4201A20564600E07AB9 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BABEB4041A2055E400E07AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BABEB3E81A2055E400E07AB9 /* ImageViewer */;
+			targetProxy = BABEB4031A2055E400E07AB9 /* PBXContainerItemProxy */;
+		};
+		BABEB42B1A20564600E07AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BABEB4271A20564600E07AB9 /* ImageViewer Watch App */;
+			targetProxy = BABEB42A1A20564600E07AB9 /* PBXContainerItemProxy */;
+		};
+		BABEB4341A20564600E07AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BABEB4151A20564600E07AB9 /* ImageViewer WatchKit Extension */;
+			targetProxy = BABEB4331A20564600E07AB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BABEB3F61A2055E400E07AB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BABEB3F71A2055E400E07AB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BABEB3FB1A2055E400E07AB9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BABEB3FC1A2055E400E07AB9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BABEB40A1A2055E400E07AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BABEB40B1A2055E400E07AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BABEB40D1A2055E400E07AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BABEB40E1A2055E400E07AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BABEB4101A2055E400E07AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImageViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageViewer.app/ImageViewer";
+			};
+			name = Debug;
+		};
+		BABEB4111A2055E400E07AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImageViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageViewer.app/ImageViewer";
+			};
+			name = Release;
+		};
+		BABEB4371A20564600E07AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ImageViewer_WatchKit_Extension;
+				INFOPLIST_FILE = "ImageViewer Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		BABEB4381A20564600E07AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = ImageViewer_WatchKit_Extension;
+				INFOPLIST_FILE = "ImageViewer Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		BABEB43A1A20564600E07AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImageViewer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BABEB43B1A20564600E07AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ImageViewer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BABEB3E41A2055E400E07AB9 /* Build configuration list for PBXProject "ImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABEB40A1A2055E400E07AB9 /* Debug */,
+				BABEB40B1A2055E400E07AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BABEB40C1A2055E400E07AB9 /* Build configuration list for PBXNativeTarget "ImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABEB40D1A2055E400E07AB9 /* Debug */,
+				BABEB40E1A2055E400E07AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BABEB40F1A2055E400E07AB9 /* Build configuration list for PBXNativeTarget "ImageViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABEB4101A2055E400E07AB9 /* Debug */,
+				BABEB4111A2055E400E07AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BABEB4361A20564600E07AB9 /* Build configuration list for PBXNativeTarget "ImageViewer Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABEB4371A20564600E07AB9 /* Debug */,
+				BABEB4381A20564600E07AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BABEB4391A20564600E07AB9 /* Build configuration list for PBXNativeTarget "ImageViewer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABEB43A1A20564600E07AB9 /* Debug */,
+				BABEB43B1A20564600E07AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BABEB3E11A2055E400E07AB9 /* Project object */;
+}
